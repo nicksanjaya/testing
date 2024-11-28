@@ -9,7 +9,7 @@ from PIL import Image
 # Menambah subheader
 st.subheader('Selamat datang di Data Science Deployment')
 
-image = Image.open('D:\Megabagusid\Python Masterclass\ML Deployment\Streamlit\data science.jpg')
+image = Image.open('data science.jpg')
 st.image(image, use_column_width=True)
 
 # Menulis text (ukuran kecil)
